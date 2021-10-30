@@ -1,0 +1,19 @@
+#First five rows
+import pandas as pd
+df = pd.read_csv('file.csv')
+print(df.head())
+
+#Last five rows
+import pandas as pd
+df = pd.read_csv('file.csv')
+print(df.tail())
+
+#First five rows with limit
+import pandas as pd
+df = pd.read_csv('file.csv')
+print(df.head(3))
+
+#Last five rows with limit
+import pandas as pd
+df = pd.read_csv('file.csv')
+print(df.tail(3))
